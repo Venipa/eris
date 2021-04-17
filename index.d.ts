@@ -165,6 +165,7 @@ declare namespace Eris {
   interface ClientOptions {
     /** @deprecated */
     agent?: HTTPSAgent;
+    userAgent?: string;
     allowedMentions?: AllowedMentions;
     autoreconnect?: boolean;
     compress?: boolean;
